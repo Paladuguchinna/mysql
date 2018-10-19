@@ -1,0 +1,21 @@
+#mysql -u root -p            (-u is username  -p is password)
+
+mysql> status  #After login to mysql check the status initially by using status command
+
+mysql> show databases;   #to check the current databases
+
+mysql> create database <databasename>;   #to create new database
+
+###All the users information is stored in default database called mysql database which is created by default
+
+mysql> select user from <databasename>.user;    #databasename is mysql
+
+mysql> create user '<required-username>'@'localhost' identified by '<required-password';
+
+mysql> grant all on <databasename>.* to 'username' identified by 'password';      #granting all permissions/privilages to the user
+
+mysql> flush privilages;   #to make the changes active
+
+mysql> use <dbname>;  #to switch the required database
+
+
