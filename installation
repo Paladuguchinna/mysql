@@ -1,0 +1,23 @@
+#rpm -qa | grep -i mysql (-i represents case-sensitive) -Verify mysql package is installed or not
+
+#yum repolist                -to check the repositories installed
+
+#wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+
+#rpm -ivh http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+
+#yum install mysql-server -y
+
+#systemctl enable mysqld.service    (or) #chkconfig mysqld.service on
+
+#systemctl start mysqld.service
+
+#systemctl status mysqld.service
+
+#mysql_secure_installation
+
+
+
+
+
+
