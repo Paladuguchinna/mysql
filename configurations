@@ -14,7 +14,7 @@ mysql> create user '<required-username>'@'localhost' identified by '<required-pa
 
 mysql> grant all on <databasename>.* to 'username' identified by 'password';      #granting all permissions/privilages to the user
 
-mysql> flush privilages;   #to make the changes active
+mysql> flush privileges;   #to make the changes active
 
 mysql> use <dbname>;  #to switch the required database
 
